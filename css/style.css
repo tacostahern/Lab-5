@@ -1,9 +1,6 @@
 #wrapper {
   width: 960px;
-  position: absolute;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 0px;
+  margin: 0 auto;
 }
 
 #main {
@@ -15,6 +12,8 @@
 body {
   background-image: url(../images/space.jpg);
   background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
