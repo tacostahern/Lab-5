@@ -1,3 +1,29 @@
+#wrapper {
+  width: 960px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+#main {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
 body {
   background-image: url(../images/space.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #bf94e4;
+}
+
+table, th, td {
+  margin: 0px auto;
+  color: white;
+  border: 1px solid #fdad5c;
 }
