@@ -19,16 +19,20 @@ body {
 h1 {
   text-align: center;
   color: #bf94e4;
+  font-size: 5em;
+  border: 4px dotted;
 }
 
-table, th, td {
+table,
+th,
+td {
   margin: 0px auto;
   color: #E6E6FA;
   border: 1px solid #fdad5c;
   padding: 15px;
 }
 
-tr#title {
+#title {
   background-color: #4B0082;
 }
 
