@@ -1,8 +1,8 @@
 #wrapper {
   width: 960px;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 0px;
 }
 
@@ -24,6 +24,19 @@ h1 {
 
 table, th, td {
   margin: 0px auto;
-  color: white;
+  color: #E6E6FA;
   border: 1px solid #fdad5c;
+  padding: 15px;
+}
+
+tr#title {
+  background-color: #4B0082;
+}
+
+tr:hover {
+  background-color: #4682B4;
+}
+
+img {
+  width: 50%
 }
